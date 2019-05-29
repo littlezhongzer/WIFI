@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quectel.quectel_stress.WifiRoamAC">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:showDividers="beginning|middle|end"
+        android:orientation="vertical">
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="Wifi SSID" />
+
+            <TextView
+                android:id="@+id/tv_roam_wifi_ssid"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="Wifi状态" />
+
+            <TextView
+                android:id="@+id/tv_roam_wifi_status"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="当前Wifi BSSID" />
+
+            <TextView
+                android:id="@+id/tv_roam_wifi_bssid"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="Wifi BSSID 对比" />
+
+            <TextView
+                android:id="@+id/tv_roam_wifi_bssid_compare"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="Wifi Roam 用时" />
+
+            <TextView
+                android:id="@+id/tv_roam_wifi_time"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="Wifi Roam 次数" />
+
+            <TextView
+                android:id="@+id/tv_roam_success_times"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

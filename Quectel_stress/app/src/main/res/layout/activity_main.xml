@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="14dp"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="vertical"
+        android:showDividers="beginning|middle|end"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="Wifi配置" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="____Quectel" />
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="53dp"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical"
+        android:showDividers="beginning|middle|end"
+        android:stretchColumns="*">
+
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="Wifi SSID" />
+
+            <EditText
+                android:id="@+id/et_normal_ssid"
+
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp" />
+        </TableRow>
+
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="Wifi 密码" />
+
+            <EditText
+                android:id="@+id/et_normal_password"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:background="@android:color/holo_blue_light"
+        android:text="确认"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="431dp" />
+
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:background="@android:color/holo_blue_light"
+        android:text="重置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="252dp"
+        android:layout_y="431dp" />
+
+</AbsoluteLayout>

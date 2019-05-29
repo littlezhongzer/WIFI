@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quectel.quectel_stress.ShowActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:showDividers="beginning|middle|end"
+        android:orientation="vertical">
+
+    <TableRow
+        android:showDividers="beginning|middle|end"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="8dp"
+            android:layout_width="1dp"
+            android:text="目标Wifi SSID"
+            android:gravity="left"/>
+        <TextView
+            android:id="@+id/tv_simpleCheck_wifi_ssid"
+            android:padding="8dp"
+            android:layout_width="1dp"
+            android:gravity="left"/>
+    </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="wifi关闭功能" />
+
+            <TextView
+                android:id="@+id/tv_simpleCheck_wifi_switcher_close"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="wifi打开功能" />
+
+            <TextView
+                android:id="@+id/tv_simpleCheck_wifi_switcher_open"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="Wifi扫描功能" />
+
+            <TextView
+                android:id="@+id/tv_simpleCheck_wifi_scan"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="wifi连接功能" />
+
+            <TextView
+                android:id="@+id/tv_simpleCheck_wifi_connect"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="wifi断开功能" />
+
+            <TextView
+                android:id="@+id/tv_simpleCheck_wifi_disconnect"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="是否ping通网络" />
+
+            <TextView
+                android:id="@+id/tv_simpleCheck_ping"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="当前wifi信号强度" />
+
+            <TextView
+                android:id="@+id/tv_simpleCheck_connect_ap_level"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <TextView
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:text="结果" />
+
+            <TextView
+                android:id="@+id/tv_simpleCheck_result"
+                android:layout_width="1dp"
+                android:gravity="left"
+                android:padding="8dp"
+                />
+        </TableRow>
+
+
+
+        <TableRow
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
